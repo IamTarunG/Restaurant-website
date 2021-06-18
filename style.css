@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-html
-{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -285,8 +283,7 @@ nav a {
   text-decoration: none;
 }
 
-footer
-{
+footer {
   width: 100%;
   height: 7vh;
   display: flex;
@@ -296,154 +293,145 @@ footer
   margin-top: 2px;
 }
 
-footer p a
-{
+footer p a {
   color: black;
   text-decoration: none;
 }
 
-@media only screen and (max-width : 800px)
-{
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
+nav a:hover {
+  animation: tarun 0.9s ease-out alternate;
 }
+
+@keyframes tarun {
+  0% {
+    font-size: auto;
+    text-decoration: underline;
+    box-shadow: 2px 3px 2px 1px grey;
+  }
+  70% {
+    font-size: 20px;
+    text-decoration: underline;
+    box-shadow: 5px -4px 2px 1px gray;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   nav {
     display: flex;
     flex-direction: column;
     height: 100%;
-    
-
   }
- nav a 
- {
-   font-size: 10px;
-   margin: 2px 0px;
-   padding: auto auto
- }
- .container1
- {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-bottom: 0px;
- }
+  nav a {
+    font-size: 10px;
+    margin: 2px 0px;
+    padding: auto auto;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
 
- .img-holder
- {
-   width: 100%;
-   height: 30vh;
-   background-position: center;
-   background-size: cover;
-   margin-right: 15px;
- }
+  .img-holder {
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+  }
 
- .names
- {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
- 
- }
- .name{
-   font-size: 25px;
-   padding: 5px 2px;
- }
- .sub-title
- {
-   font-size: 15px;
-   padding: 5px 2px;
- }
+  .names {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .name {
+    font-size: 25px;
+    padding: 5px 2px;
+  }
+  .sub-title {
+    font-size: 15px;
+    padding: 5px 2px;
+  }
 
- .price-containers
- {
-   display: flex;
-   flex-direction: column;
-   margin: 10px 0px;
-   
- }
+  .price-containers {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
 
- .container-price1
- {
-   /* display: block; */
-   padding: 0px 76px;
-   width: 100%;
-   height: 20vh;
-   margin: 5px 0px;
- }
- .first-price
- {
-  /* padding: 0px 76px; */
-   font-size: 20px;
- }
- .first-name
- {
-   font-size: 10px;
- }
- .container-price2
- {
-   width: 100%;
-   height: 20vh;
- }
- .second-price
- {
-   font-size: 20px;
- }
- .second-name
- {
-   font-size: 10px;
- }
- .container2
- {
-   display: flex;
-   flex-direction: column;
-   margin-top: 0px;
-   
- }
- .box1{
-   width: 100%;
-   margin-bottom: 5px;
- }
- .box2{
-   width: 100%;
-   margin-bottom: 5px;
- }
- .box3{
-   width: 100%;
-   margin-bottom: 5px;
- }
- .box4{
-   width: 100%;
-   margin-bottom: 5px;
- }
+  .container-price1 {
+    /* display: block; */
+    padding: 0px 76px;
+    width: 100%;
+    height: 20vh;
+    margin: 5px 0px;
+  }
+  .first-price {
+    /* padding: 0px 76px; */
+    font-size: 20px;
+  }
+  .first-name {
+    font-size: 10px;
+  }
+  .container-price2 {
+    width: 100%;
+    height: 20vh;
+  }
+  .second-price {
+    font-size: 20px;
+  }
+  .second-name {
+    font-size: 10px;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .box1 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .box2 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .box3 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .box4 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
 
-.container3
-{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.img-taco
-{
-  display: block;
-  width: 100%;
-}
-.p1
-{
-  font-size: 25px;
-}
-.p2
-{
-  font-size: 15px;
-}
-.p3
-{
-  font-size: 15px;
-}
-footer p{
-  font-size: 10px;
-}
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .img-taco {
+    display: block;
+    width: 100%;
+  }
+  .p1 {
+    font-size: 25px;
+  }
+  .p2 {
+    font-size: 15px;
+  }
+  .p3 {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 10px;
+  }
 }
