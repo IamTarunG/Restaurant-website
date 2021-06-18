@@ -327,6 +327,7 @@ footer p a
  {
    display: flex;
    flex-direction: column;
+   align-items: center;
    margin-bottom: 0px;
  }
 
@@ -336,6 +337,7 @@ footer p a
    height: 30vh;
    background-position: center;
    background-size: cover;
+   margin-right: 15px;
  }
 
  .names
@@ -358,38 +360,40 @@ footer p a
  .price-containers
  {
    display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   margin-top: 10px;
-   margin-top: 64px;
+   flex-direction: column;
+   margin: 10px 0px;
    
  }
 
  .container-price1
  {
-   width: 40%;
-   height: 15vh;
+   /* display: block; */
+   padding: 0px 76px;
+   width: 100%;
+   height: 20vh;
+   margin: 5px 0px;
  }
  .first-price
  {
-   font-size: 30px;
+  /* padding: 0px 76px; */
+   font-size: 20px;
  }
  .first-name
  {
-   font-size: 15px;
+   font-size: 10px;
  }
  .container-price2
  {
-   width: 40%;
-   height: 15vh;
+   width: 100%;
+   height: 20vh;
  }
  .second-price
  {
-   font-size: 30px;
+   font-size: 20px;
  }
  .second-name
  {
-   font-size: 15px;
+   font-size: 10px;
  }
  .container2
  {
@@ -438,5 +442,8 @@ footer p a
 .p3
 {
   font-size: 15px;
+}
+footer p{
+  font-size: 10px;
 }
 }
